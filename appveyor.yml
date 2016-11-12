@@ -1,0 +1,4 @@
+install:
+  - mvn clean cobertura:cobertura coveralls:report
+
+build: off
